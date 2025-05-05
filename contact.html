@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact - MySchool</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">MySchool</div>
+    <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+    <nav id="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="courses.html">Courses</a>
+      <a href="news.html">News</a>
+      <a href="register.html">Register</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Contact Us</h1>
+      <p>We would love to hear from you. Reach out to us below.</p>
+    </div>
+  </section>
+
+  <section class="form-section">
+    <!-- Formspree form -->
+    <form class="contact-form" action="https://formspree.io/f/xvgaaolb" method="POST">
+      <label>Your email:
+        <input type="email" name="email" required />
+      </label>
+      <label>Your message:
+        <textarea name="message" required></textarea>
+      </label>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+ 
+  <footer>
+  <p>&copy; 2025 MySchool. All rights reserved. | Created by <a href="https://chrohail.org" target="_blank" title="Visit Chaudhry Rashid's website"><span class="emoji">🔗</span> Chaudhry Rashid</a></p>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
